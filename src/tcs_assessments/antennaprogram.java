@@ -14,6 +14,7 @@ public class antennaprogram {
             String c = sc.nextLine();
             double d = sc.nextDouble();
             sc.nextLine();
+
             ant[i] = new Antenna(a, b, c, d);
         }
 
