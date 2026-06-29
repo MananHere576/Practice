@@ -1,17 +1,17 @@
-package tcs_assessments;
+package assessments;
 import java.util.Scanner;
-public class Ques3 {
+
+public class Ques1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
-        String temp="";
+        char ch=sc.next().charAt(0);
         for (int i = 0; i <str.length() ; i++) {
-            if(temp.indexOf(str.charAt(i))==-1)
+            if(str.charAt(i)==ch)
             {
-                temp=temp+str.charAt(i);
+                System.out.println(i + 1);
+                break;
             }
         }
-        System.out.println(temp);
-
     }
 }

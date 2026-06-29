@@ -1,4 +1,4 @@
-package tcs_assessments;
+package assessments;
 
 import java.util.*;
 public class courseProgram
